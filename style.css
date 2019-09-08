@@ -40,6 +40,10 @@ td{
     color: black;
 }
 
+td:hover{
+    background-color: rgb(200, 210, 210);
+}
+
 @media (max-width:350px){
     td{
         width: 90px;
