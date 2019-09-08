@@ -1,0 +1,92 @@
+h1{
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+    color: red;
+}
+
+body{
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    /* padding: 0 1rem; */
+    text-align: center;
+}
+
+table{
+    padding-top: 20px;
+    margin: auto;
+    border-radius: 5px;
+    border-spacing: 8px; 
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    background: rgb(230, 235, 235);
+    font-size: 60px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+@media (max-width:350px){
+    td{
+        width: 90px;
+        height: 90px;
+        background: rgb(230, 235, 235);
+        font-size: 50px;
+        text-align: center;
+        border-radius: 5px;
+        color: black;
+    }
+    h1{
+        padding-top: 20px;
+        font-size: 47px;
+    }
+    
+    h2{
+        font-size: 28px;
+    }
+}
+
+/* .score{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+.score p:first-child{
+    background: rgb(49, 215, 221);
+}
+.score p:last-child{
+    background: rgb(31, 184, 189);
+}
+
+.restart-btn{
+    display: none;
+    background: rgb(214, 191, 183);
+    color: black;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.restart-btn:hover{
+    background: orangered;
+    color: white;
+    transition: all ease-in-out 0.5s;
+} */
