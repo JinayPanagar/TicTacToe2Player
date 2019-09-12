@@ -1,5 +1,5 @@
 h1{
-    padding-top: 25px;
+    /* padding-top: 10px; */
     font-size: 50px;
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 table{
-    padding-top: 20px;
+    /* padding-top: 20px; */
     margin: auto;
     border-radius: 5px;
     border-spacing: 8px; 
@@ -38,10 +38,32 @@ td{
     text-align: center;
     border-radius: 5px;
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 td:hover{
     background-color: rgb(200, 210, 210);
+}
+
+.restart{
+    /* display: none; */
+    background: rgb(255, 234, 116);
+    color: black;
+    padding: 0.5rem 2.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.restart:hover{
+    background: rgb(255, 226, 59);
+    transition: all ease-in-out 0.2s;
 }
 
 @media (max-width:350px){
@@ -53,14 +75,30 @@ td:hover{
         text-align: center;
         border-radius: 5px;
         color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     h1{
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 47px;
     }
     
     h2{
         font-size: 28px;
+    }
+    .restart{
+        /* display: none; */
+        background: rgb(255, 234, 116);
+        color: black;
+        padding: 0.4rem 2rem;
+        font-size: 2rem;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
 }
 
@@ -77,18 +115,6 @@ td:hover{
     background: rgb(31, 184, 189);
 }
 
-.restart-btn{
-    display: none;
-    background: rgb(214, 191, 183);
-    color: black;
-    padding: 0.7rem 2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-}
 .restart-btn:hover{
     background: orangered;
     color: white;
